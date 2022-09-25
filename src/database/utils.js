@@ -5,3 +5,5 @@ const saveToDatabase = (DB) => {
     encoding: "utf-8",
   });
 };
+
+module.exports = { saveToDatabase }
